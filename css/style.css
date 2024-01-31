@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(231, 229, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+}
+
+main {
+    border: none;
+    height: 25rem;
+    width: 21rem;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgb(58, 54, 54), 0 6px 20px rgb(58, 54, 54);
+}
+
+.container {
+    border: none;
+    padding: 2rem;
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: larger;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+input {
+    height: 2rem;
+    width: 17rem;
+    border-radius: 5px;
+    border: lightgray solid 2px;
+}
+
+.pstrength,
+h6 {
+    font-family: 'Poppins', sans-serif, 'Maven Pro';
+    font-size: x-small;
+    margin-top: 10px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+
+ul {
+    margin-left: -1.5rem;
+    margin-top: -1rem;
+    color: gray;
+    font-size: x-small;
+    font-family: 'Poppins', sans-serif, 'Maven Pro';
+    font-weight: bold;
+}
+
+button {
+    height: 2.32rem;
+    width: 16rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(127, 8, 179);
+    font-size: medium;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif, 'Maven Pro';
+    font-size: small;
+}
+
+a {
+    color: black;
+}
+
+.showpw {
+    position: absolute;
+    right: 10px;
+    top: -6px;
+
+}
+
+.pword_container {
+    position: relative;
+}
+
+meter::-webkit-meter-optimum-value {
+    background-color: red;
+}
+
+/*
+if i used meter tag i will use these below function
+ meter::-webkit-meter-bar{}for the background bar
+meter::-webkit-meter-optimum-value{}for the range
+ */

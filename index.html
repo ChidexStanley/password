@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PASSWORD</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <div class="image">
+                <img id="padlock" src="public/padlockLight.png" alt="" srcset="">
+                <img id="darkmode" src="public/lightbutton.png" alt="" srcset="">
+            </div>
+            <div>
+                <form>
+                    <h2><strong>Create a secure password</strong></h2>
+                    <div class="pword_container">
+                        <input type="password" placeholder="password" id="pword">
+                        <h4 class="showpw"><a href="#">Show</a></h4>
+                    </div>
+                    <br>
+                    <div class="pstrength">
+                        <span>Password strength .</span>
+                        <meter id="meter" value="1" min="0" max="3" style="color: blueviolet;"></meter>
+                        <span>Weak</span>
+                    </div>
+                    <h6>Must contain at least</h6>
+                    <ul>
+                        <li>8 characters</li>
+                        <li>1 lower case characters</li>
+                        <li>1 special character</li>
+                    </ul>
+                   <h5><button>Continue</button></h5>
+                </form>
+            </div>
+            <div>
+                <h4><a href="#" id="forgetpword">Forgot password?</a></h4>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
